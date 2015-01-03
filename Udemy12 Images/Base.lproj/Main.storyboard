@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTO-Qs-s80">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTO-Qs-s80">
                                 <rect key="frame" x="121" y="383" width="79" height="30"/>
                                 <state key="normal" title="walk faster!">
                                     <color key="titleColor" red="0.0" green="0.65447443179999998" blue="0.63021566900000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -32,6 +32,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="vTO-Qs-s80" secondAttribute="centerX" id="7mo-RL-ciy"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="vTO-Qs-s80" secondAttribute="bottom" constant="67" id="J2f-yz-oaL"/>
                         </constraints>
                     </view>
