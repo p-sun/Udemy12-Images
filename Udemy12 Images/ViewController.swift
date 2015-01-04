@@ -43,10 +43,11 @@ class ViewController: UIViewController {
     
     // -----------------
     // Upon loading of app,
-    // creature moves from left to center (these 2 lines don't do anything since the 3rd lines are in use),
-        //so 3rd lines are commented out.
+    // creature moves from top to center
     // fades in from being completely transparent
     // goes from small to big and also moves from point A to B using CGRectMake(x, y, width, height)
+        //(these 2 lines don't do anything since the 1st lines are in use),
+        //so 3rd lines are commented out.
     
     // viewDidLayoutSubview is before view is displayed on screen (i.e. Before viewDidAppear)
     
