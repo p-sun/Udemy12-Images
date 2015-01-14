@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         }
         //***2----------
         
-        //timer runs displayWalk() every 0.1 seconds
+        //timer runs displayWalk() every 0.07 seconds
         timer = NSTimer.scheduledTimerWithTimeInterval(0.07, target: self, selector: Selector("displayWalk"), userInfo: nil, repeats: true)
         println("viewDidLoad")
 
